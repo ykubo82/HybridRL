@@ -1,5 +1,5 @@
-# HybridRL
-This is code to reproduce our results on Acrobot-v1 from manuscript: "Biologically-Inspired Neuronal Adaptation Improves Learning in Neural Networks":
+# Combining Backpropagation with Equilibrium Propagation to improve an Actor-Critic RL framework 
+This is code to reproduce our results on Acrobot-v1 from manuscript: "Combining Backpropagation with Equilibrium Propagation to improve an Actor-Critic RL framework":
 
 To run aecb_acrobot.py, go:
 
