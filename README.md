@@ -21,7 +21,7 @@ go:
 ```
 python show_reward.py 
 ```
-*Please move "show_reward.py" to "results_acrbt" directory, and execute above.
+*Please move "show_reward.py" to "results_epbp" or "results_bp" directory, and execute above.
 
 If you want to change the task, please change:
 Line 25 in epbp.py and bp.py for the task
