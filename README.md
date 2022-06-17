@@ -13,15 +13,15 @@ To run bp.py, go:
 python bp.py 
 ```
 *for this code, please install pytoch.
-*This python code will create a directory "results_epbp" or "results_bp" to save the results (reward.npy).
+*These python codes will create a directory "results_epbp" or "results_bp" to save the results (reward.npy).
 
-After the training, these code plot the results. Also, you can check results whenever you want as follows:
+After the training, these codes plot the results. Also, you can check results when you want to do so as follows:
 go:
 
 ```
 python show_reward.py 
 ```
-*Please move "show_reward.py" to "results_epbp" or "results_bp" directory, and execute above.
+*Before executing above, please move "show_reward.py" to "results_epbp" or "results_bp" directory.
 
 If you want to change the task, please change:
 Line 25 in epbp.py and bp.py for the task
