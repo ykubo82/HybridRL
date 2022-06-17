@@ -36,7 +36,7 @@ Line 334 and 335 in bp.py for the outputs
 
 Line 336 in bp.py for the inputs
 
-*for bp.py, the specific learning rates (we carefully choose the best ones on each task) are as follows:
+*for bp.py, the specific learning rates (we carefully tune the learning rate on each task) are as follows:
 
 Acrobot-v1: 2e-3 for actor and 1e-3 for critic
 
