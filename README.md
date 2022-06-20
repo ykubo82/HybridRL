@@ -38,16 +38,10 @@ Line 308 in bp.py for the inputs
 
 *for bp.py, the specific learning rates (we carefully tune the learning rate on each task) are as follows:
 
-Acrobot-v1: 2e-3 for actor and 1e-3 for critic
-
-CartPole-v0: 2e-3 for actor and 1e-3 for critic
-
-LunarLander-v2: 2e-3 for actor and 1e-4 for critic
-
 Task             | learning rate for actor | learning rate for critic
 -------------    | -------------           |-------------
 CartPole-v0      | 2e-3                    | 1e-3
-Acrobot-v1       | 2e-3                    |   1e-3
-LunarLander-v2   | 2e-3                    |1e-4 
+Acrobot-v1       | 2e-3                    | 1e-3
+LunarLander-v2   | 2e-3                    | 1e-4 
 
 
