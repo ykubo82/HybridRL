@@ -44,8 +44,10 @@ CartPole-v0: 2e-3 for actor and 1e-3 for critic
 
 LunarLander-v2: 2e-3 for actor and 1e-4 for critic
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+Task             | learning rate for actor | learning rate for critic
+-------------    | -------------           |-------------
+CartPole-v0      | 2e-3                    | 1e-3
+Acrobot-v1       | 2e-3                    |   1e-3
+LunarLander-v2   | 2e-3                    |1e-4 
+
 
