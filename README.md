@@ -44,5 +44,8 @@ CartPole-v0: 2e-3 for actor and 1e-3 for critic
 
 LunarLander-v2: 2e-3 for actor and 1e-4 for critic
 
-
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
 
