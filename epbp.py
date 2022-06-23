@@ -237,6 +237,7 @@ def learn(Qvals, values, critic, optim):
     torch.cuda.empty_cache()
 
 # actor model trained by EP
+# this model is based on https://github.com/ernoult/updatesEPgradientsBPTT
 class Actor(nn.Module):
     def __init__(self, args):
         super(Actor, self).__init__()
