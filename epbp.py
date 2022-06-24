@@ -428,7 +428,7 @@ class Actor(nn.Module):
         
 
     def act(self, x, flg=False):
-      action = np.random.choice(3, p=np.squeeze(x).cpu().detach().numpy())
+      action = np.random.choice(self.size_tab[0], p=np.squeeze(x).cpu().detach().numpy())
       torch.cuda.empty_cache()
       return action, x 
 
