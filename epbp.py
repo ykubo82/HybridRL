@@ -98,7 +98,7 @@ parser.add_argument(
     type=int,
     default=150,
     metavar='T',
-    help='number of time steps in the forward pass (default: 100)')
+    help='number of time steps in the forward pass (default: 150)')
 parser.add_argument(
     '--Kmax',
     type=int,
@@ -116,7 +116,7 @@ parser.add_argument(
     type=int,
     default=130,
     metavar='Delay',
-    help='target delay (default: 80)') 
+    help='target delay (default: 130)') 
 parser.add_argument(
     '--training-method',
     type=str,
