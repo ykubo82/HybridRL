@@ -15,7 +15,7 @@ os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 arr_reward      = np.load('reward.npy',  allow_pickle=True)
 
 length = len(arr_reward)
-#print(arr_reward[4000:])
+
 avg_reward   = []
 each_reward = []
 for i in range(length):
@@ -25,10 +25,7 @@ for i in range(length):
   else:
     each_reward.append(arr_reward[i])
 
-#np.save("reward_ep.npy", avg_reward)
-print(np.max(avg_reward))
 plt.plot(avg_reward)
-#plt.plot(arr_reward)
 plt.ylabel('Reward' , fontsize=20)
 plt.xlabel('Episode (x 10)' , fontsize=20)
 plt.xticks(fontsize=20)
