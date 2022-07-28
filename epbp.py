@@ -61,14 +61,14 @@ parser.add_argument(
     type=int,
     default=[3, 256, 6],
     metavar='ST',
-    help='tab of layer sizes (default: [10])')      
+    help='tab of layer sizes (default: [3, 256, 6])')      
 parser.add_argument(
     '--size_tab_c',
     nargs = '+',
     type=int,
     default=[1, 256, 6],
     metavar='ST',
-    help='tab of layer sizes (default: [10])')   
+    help='tab of layer sizes (default: [1, 256, 6])')   
 parser.add_argument(
     '--batch_size',
     type=int,
@@ -207,9 +207,11 @@ elif args.activation_function == 'tanh':
     def rhop(x):
         return 1 - torch.tanh(x)**2 
 
+# for actor
 def softmax(x):
   return F.softmax(x)
 
+# for critic
 def hard_sigmoid(x):
   return (1+F.hardtanh(2*x-1))*0.5
 
