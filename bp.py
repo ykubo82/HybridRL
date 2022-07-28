@@ -30,7 +30,7 @@ FloatTensor = torch.cuda.FloatTensor
 print('observation space:', env.observation_space)
 print('action space:', env.action_space)
 
-directory = 'results_epbp'
+directory = 'results_bp'
 
 f = None
 exit_dir = os.path.isdir(directory)
