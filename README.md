@@ -31,7 +31,7 @@ Line 49 and 62 in epbp.py for the learning rates
 
 Line 62 and 69 in epbp.py for the inputs and outputs
 
-Line 542 in epbp.py for the label
+Line 544 in epbp.py for the label
 
 Line 300 and 301 in bp.py for the learning rates
 
