@@ -39,7 +39,7 @@ Line 306 and 307 in bp.py for the outputs
 
 Line 308 in bp.py for the inputs
 
-*for bp.py, the specific learning rates (we carefully tune the learning rate on each task) are as follows:
+*for bp.py, the specific learning rates (the other learning rates and results are available in our supplemental file: Section 6) are as follows:
 
 Task             | learning rate for actor | learning rate for critic
 -------------    | -------------           |-------------
