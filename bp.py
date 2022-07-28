@@ -297,8 +297,8 @@ def run():
   episode            = 1000             # training episode
   gam                = 0.95             # gamma for RL 
 
-  lr_actor           = 2e-3             # learning rate for critic
-  lr_critic          = 1e-3             # learning rate for actor  
+  lr_actor           = 2e-3             # learning rate for actor
+  lr_critic          = 1e-3             # learning rate for critic  
   
   hidden_size_critic = 256              # hidden size for the network  
   hidden_size_actor  = 256              # hidden size for the network
