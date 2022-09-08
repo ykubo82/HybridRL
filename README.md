@@ -1,5 +1,5 @@
-# Combining Backpropagation with Equilibrium Propagation to improve an Actor-Critic RL framework 
-This is code to reproduce our results on Acrobot-v1 from manuscript: "Combining Backpropagation with Equilibrium Propagation to improve an Actor-Critic RL framework":
+# Combining Backpropagation with Equilibrium Propagation to improve an Actor-Critic Reinforcement Learning framework 
+This is code to reproduce our results on Acrobot-v1 from manuscript: "Combining Backpropagation with Equilibrium Propagation to improve an Actor-Critic Reinforcement Learning framework":
 The code for EP-BP (specifically, Actor) is based on "Updates of Equilibrium Prop Match Gradients of Backprop Through Time in an RNN with Static Input" (https://github.com/ernoult/updatesEPgradientsBPTT)
 
 To run epbp.py, go:
