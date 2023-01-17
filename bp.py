@@ -1,7 +1,7 @@
 # Author: Yoshimasa Kubo
 # Date: 2021/09/09
 # Updated: 
-# dataset : cart pole for EP
+# dataset : cart pole for BP
 import gym
 
 import numpy as np
