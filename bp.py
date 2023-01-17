@@ -1,7 +1,7 @@
 # Author: Yoshimasa Kubo
 # Date: 2021/09/09
 # Updated: 
-# dataset : Acrobot
+# Task : Acrobot-v1
 import gym
 
 import numpy as np
